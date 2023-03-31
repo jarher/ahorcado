@@ -89,6 +89,8 @@ body {
   font-size: 2rem;
   text-align: center;
   margin: 1%;
+  color: red;
+  background: #eaeaea;
 }
 .container__img {
   width: 150px;
