@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El ahorcado</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+    <div class="layer">
+        <div class="modal modal--hidden">
+            <div class="modal__content">
+                <p class="modal__message modal__message--error" data-message>¡acertó!</p>
+                <p class="modal__title">¿Quiere reiniciar el juego?</p>
+                <div class="modal__buttons_container">
+                    <button class="modal__button" data-reset>Aceptar</button>
+                    <button class="modal__button" data-quit>Rechazar</button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__border">
+                <div class="container__title">El Ahorcado</div>
+                <div class="container__title">Ingrese una letra para continuar</div>
+                <div class="container__img">
+                    <img src="" alt="">
+                </div>
+                <div class="container__outputs">
+                    <div class="container__output" data-index="0"></div>
+                    <div class="container__output" data-index="1"></div>
+                    <div class="container__output" data-index="2"></div>
+                    <div class="container__output" data-index="3"></div>
+                    <div class="container__output" data-index="4"></div>
+                    <div class="container__output" data-index="5"></div>
+                    <div class="container__output" data-index="6"></div>
+                    <div class="container__output" data-index="7"></div>
+                </div>
+                <button class="container__restart" data-reset>Reiniciar juego</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
